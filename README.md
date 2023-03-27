@@ -18,7 +18,15 @@ Combining our skills to create a successful user experience with com.Posting.
 
 Skills:
 
-List skills we went over last week
+- Communication
+- Active Listening
+- Github
+- IntelliJ
+- Java
+- Database Design
+- Organization
+- Entrepreneurship
+- Critical thinking
 
 
 Individual Profressional Experirence:
