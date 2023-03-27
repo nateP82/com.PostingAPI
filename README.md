@@ -31,7 +31,7 @@ Abigail Genz:
 Review skills from last meeting
 
 Tim Mirkes:
-Review skills from last meeting
+I love a fun guy.  I'll see myself out.
 
 Nate Peck:
 Review skills from last meeting
