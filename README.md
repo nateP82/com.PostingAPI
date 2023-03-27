@@ -11,7 +11,7 @@ Team Name: com.Posting
 
 Abigail Genz -
 
-Tim Mirkes -
+Tim Mirkes - An old man with a lawn.  Get off it.
 
 Nate Peck - A quality concious developer with attention to UI/UX details.
 
