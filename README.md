@@ -1,4 +1,4 @@
-# com.CompostingAPI
+# com.PostingAPI
 API that allows access to a composting database
 
 Hello World 
