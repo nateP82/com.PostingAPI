@@ -1,11 +1,7 @@
 # com.PostingAPI
-API that allows access to a composting database
-
-Hello World 
+API that allows access to a composting database 
 
 # Team Resume
-
-Team Resume
 
 Team Name: com.Posting
 
@@ -17,7 +13,7 @@ Nate Peck - A quality concious developer with attention to UI/UX details.
 
 
 Objective
-Combining our skills to create a successful user experience with TBD'd team name.
+Combining our skills to create a successful user experience with com.Posting.
 
 
 Skills:
