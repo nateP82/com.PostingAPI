@@ -5,7 +5,7 @@ API that allows access to a composting database
 
 Team Name: com.Posting
 
-Abigail Genz -
+Abigail Genz - Team coordinator, leader and task delegator. 
 
 Tim Mirkes - An old man with a lawn.  Get off it.
 
@@ -24,7 +24,7 @@ List skills we went over last week
 Individual Profressional Experirence:
 
 Abigail Genz:
-Review skills from last meeting
+No IT professional experience so far, but has skills like time management, organization and problem-solving skills from previous customer service jobs.  
 
 Tim Mirkes:
 I love a fun guy.  I'll see myself out.
