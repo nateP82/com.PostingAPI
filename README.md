@@ -2,19 +2,17 @@
 
 **Team Name:** com.Posting
 
-### Project statement: 
+### Project statement:
+Users of Compost Collectors need a way to track their services. With the com.Posting API, users will get aggregate data on their services, in the form of a detailed invoice.
 
 **Abigail Genz** - Team coordinator, leader and task delegator. 
 
 **Tim Mirkes** - An old man with a lawn.  Get off it.
 
-**Nate Peck** - A quality concious developer with attention to UI/UX details.
-
+**Nate Peck** - Creative team collaborator and descriptive writer.
 
 ### Objective:
-
-Combining our skills to create a successful user experience with com.Posting.
-
+Create a functional API that retrieves and builds a detailed invoice about a user and their Compost Collectors services rendered.
 
 ### Skills:
 
@@ -38,4 +36,4 @@ No IT professional experience so far, but has skills like time management, organ
 I love a fun guy.  I'll see myself out.
 
 **Nate Peck:**
-Review skills from last meeting
+Customer service technical support, QA automated testing, agile-ish methodologies.
