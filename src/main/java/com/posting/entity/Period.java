@@ -55,4 +55,13 @@ public class Period {
     public int hashCode() {
         return Objects.hash(id, frequency, timeUnit);
     }
+
+    @Override
+    public String toString() {
+        return "Period{" +
+                "id=" + id +
+                ", frequency=" + frequency +
+                ", timeUnit='" + timeUnit + '\'' +
+                '}';
+    }
 }

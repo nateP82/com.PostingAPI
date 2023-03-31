@@ -55,4 +55,13 @@ public class Service {
     public int hashCode() {
         return Objects.hash(id, name, description);
     }
+
+    @Override
+    public String toString() {
+        return "Service{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                '}';
+    }
 }

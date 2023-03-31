@@ -55,4 +55,13 @@ public class Material {
     public int hashCode() {
         return Objects.hash(id, name, comments);
     }
+
+    @Override
+    public String toString() {
+        return "Material{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", comments='" + comments + '\'' +
+                '}';
+    }
 }
