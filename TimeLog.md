@@ -1,21 +1,13 @@
-# Project Plan
+### Time Log
 
-### Week 9
-- [ ] Build team resume
-- [ ] Populate team charter/ground rules
-- [ ] Complete database design
-- [ ] Build local database for client data
-- [ ] Build new AWS environment
-- [ ] Generate AWS tables to remote environment
-- [ ] Source testing data
-- [ ] Fill out time log
+## Week 9
+Two hours of meeting time
 
-### Week 10
-- [ ] Fill out time log
+## Week 10
+Five hours of meeting time
 
-### Week 11
-- [ ] Fill out time log
+## Week 11
 
-### Week 12
-- [ ] Fill out time log
+## Week 12
+
 

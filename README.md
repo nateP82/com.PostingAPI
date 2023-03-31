@@ -21,6 +21,7 @@ Create a functional API that retrieves and builds a detailed invoice about a use
 - Github
 - IntelliJ
 - Java
+- SQL
 - Database Design
 - Organization
 - Entrepreneurship
