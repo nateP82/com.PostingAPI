@@ -12,7 +12,9 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="com.CompostingAPI" value="15d12e86-f5db-4505-8ad1-c6699a32167f" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>
