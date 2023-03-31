@@ -1,7 +1,7 @@
 package com.posting.persistence;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+//import org.apache.logging.log4j.LogManager;
+//import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
 
 import javax.persistence.criteria.CriteriaBuilder;
@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class GenericDao<T> {
     private Class<T> type;
-    private final Logger logger = LogManager.getLogger(this.getClass());
+    //private final Logger logger = LogManager.getLogger(this.getClass());
 
     /**
      * Instantiates a generic dao
