@@ -20,6 +20,10 @@
     <servlet-name>SearchManager</servlet-name>
     <servlet-class>com.posting.controller.SearchManager</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>TrafficControl</servlet-name>
+    <servlet-class>com.posting.controller.TrafficControl</servlet-class>
+  </servlet>
 
 
   <!-- ********************************************************************* -->
@@ -29,12 +33,17 @@
     <servlet-name>SearchManager</servlet-name>
     <url-pattern>/search</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TrafficControl</servlet-name>
+    <url-pattern>/redirect</url-pattern>
+  </servlet-mapping>
+
 
   <!-- ********************************************************************* -->
   <!-- Home Page *********************************************************** -->
   <!-- ********************************************************************* -->
   <welcome-file-list>
-    <welcome-file>/index.jsp</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
 
 </web-app>
