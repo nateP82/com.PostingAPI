@@ -1,8 +1,7 @@
 ### Team Resume
 
-## Team Name:
-
-**com.Posting/**
+## Team Name
+com.Posting/
 
 ### Project statement:
 Users of Compost Collectors need a way to track their services. With the com.Posting API, users will get aggregate data on their services, in the form of a detailed invoice.
