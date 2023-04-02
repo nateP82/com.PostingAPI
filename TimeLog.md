@@ -1,10 +1,13 @@
 ### Time Log
 
 ## Week 9
-Two hours of meeting time
+- Two hour meeting (Friday)
 
 ## Week 10
-Five hours of meeting time
+- Two hour meeting (Monday)
+- One hour meeting (Wednesday)
+- Two hour meeting (Friday)
+- Tim: 6 hours (SQL schema design, controller Java class, and POJOs)
 
 ## Week 11
 

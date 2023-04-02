@@ -1,19 +1,22 @@
 # Project Plan
 
 ### Week 9
-- [x] Build team resume
-- [x] Complete database design
-- [x] Build local database for client data
-- [x] Fill out time log
+- [x] Build team resume (All)
+- [x] Complete database design (Tim/Nate)
+- [x] Build local database for client data (All locally)
+- [x] Fill out time log (All)
 
 ### Week 10
-- [x] Populate team charter/ground rules
-- [ ] Build new AWS environment
-- [ ] Generate AWS tables to remote environment
-- [ ] Finish week 9 exercise
-- [ ] Week 10 exercise?
-- [x] Build out Handler and Search Manager classes
-- [x] Fill out time log
+- [x] Populate team charter/ground rules (All)
+- [x] Build JSP for basic database output (Abigail)
+- [x] Build DAO class for database output (Nate)
+- [ ] Build new AWS environment (Abigail)
+- [ ] Generate AWS tables to remote environment (Abigail)
+- [ ] Finish week 9 exercise (All)
+- [ ] Week 10 exercise? (All)
+- [x] Build out Search Manager class (Tim)
+- [x] Troubleshoot JSP/POJOs/classes (All)
+- [x] Fill out time log (All)
 
 ### Week 11
 - [ ] Source testing data
