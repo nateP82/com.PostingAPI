@@ -1,10 +1,10 @@
-### Team Resume
+## Team Resume
 
-## Team Name
+### Team Name:
 com.Posting/
 
 ### Project statement:
-Users of Compost Collectors need a way to track their services. With the com.Posting API, users will get aggregate data on their services, in the form of a detailed invoice.
+Compost Collectors provides a set of standardized services, and invoices could be generated for users in any location, whether an office or a field agent.  To facilitate the flexibility of invoice creation, the Compost Collectors API is designed to provide users a remote information source designed to interface with a local database or other storage method to generate user-specific invoices, stored locally but configured using standardized business data.
 
 **Abigail Genz** - Team coordinator, leader and task delegator. 
 
@@ -13,7 +13,7 @@ Users of Compost Collectors need a way to track their services. With the com.Pos
 **Nate Peck** - Creative team collaborator and descriptive writer.
 
 ### Objective:
-Create a functional API that retrieves and builds a detailed invoice about a user and their Compost Collectors services rendered.
+Develop a functional API to provide configuration information for use in the construction of service invoices for the Compost Collectors business.
 
 ### Skills:
 
