@@ -194,7 +194,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>com.Posting/</finalName>
+        <finalName>com.Posting</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>
