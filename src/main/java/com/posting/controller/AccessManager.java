@@ -1,5 +1,8 @@
 package com.posting.controller;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.IOException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -15,6 +18,7 @@ import javax.servlet.http.HttpServletResponse;
         urlPatterns = {"/accessServices"}
 )
 public class AccessManager extends HttpServlet {
+    private final Logger logger = LogManager.getLogger(this.getClass());
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
