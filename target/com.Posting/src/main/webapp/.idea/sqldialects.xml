@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="SqlDialectMappings">
-    <file url="file://$USER_HOME$/Downloads/comPosting_AWS_script.txt" dialect="MySQL" />
-    <file url="file://$USER_HOME$/Downloads/comPosting_local_script.txt" dialect="MySQL" />
-  </component>
-</project>
