@@ -23,8 +23,8 @@
 </form>
 <div id="resultsBox">
     <c:if test="${sessionScope.processed}">
-        <c:forEach var="result" items="results">
-                <c:out value="${result}"></c:out><br>
+        <c:forEach var="result" items="${results}">
+                <c:out value="${result.toString()}"></c:out><br>
         </c:forEach>
     </c:if>
 </div>

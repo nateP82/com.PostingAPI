@@ -29,6 +29,7 @@ public class SearchManager extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         logger.info("doGet entered");
+        results = new ArrayList<Object>();
         getSearchObjectType(request);
         if (request.getParameter("submit").equals("viewAll")) {
             getAllResults();
@@ -38,7 +39,6 @@ public class SearchManager extends HttpServlet {
         HttpSession session = request.getSession();
         session.setAttribute("results", results);
         session.setAttribute("processed", true);
-
         String url = "/index.jsp";
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
         dispatcher.forward(request, response);
@@ -69,23 +69,7 @@ public class SearchManager extends HttpServlet {
     }
 
     public void getSearchResult() {
-        results = searchDao.getById(searchItem);
-    }
-
-    public String getPERIOD_SEARCH() {
-        return PERIOD_SEARCH;
-    }
-
-    public String getMATERIAL_SEARCH() {
-        return MATERIAL_SEARCH;
-    }
-
-    public String getSERVICE_SEARCH() {
-        return SERVICE_SEARCH;
-    }
-
-    public String getPRICE_SEARCH() {
-        return PRICE_SEARCH;
+        results.add(searchDao.getById(searchItem));
     }
 
     public ArrayList<Object> getResults() {
