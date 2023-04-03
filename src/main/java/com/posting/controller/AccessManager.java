@@ -1,5 +1,6 @@
 package com.posting.controller;
 
+import com.posting.persistence.GenericDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -19,6 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 )
 public class AccessManager extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
+    GenericDao genericDao;
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         logger.info("doGet method running");
