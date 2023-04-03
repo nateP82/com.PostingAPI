@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="com.Posting.war">
+    <root id="archive" name="com.Posting/.war">
       <element id="artifact" artifact-name="com.CompostingAPI:war exploded" />
     </root>
   </artifact>

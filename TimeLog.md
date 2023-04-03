@@ -1,21 +1,17 @@
-# Project Plan
+### Time Log
 
-### Week 9
-- [ ] Build team resume
-- [ ] Populate team charter/ground rules
-- [ ] Complete database design
-- [ ] Build local database for client data
-- [ ] Build new AWS environment
-- [ ] Generate AWS tables to remote environment
-- [ ] Source testing data
-- [ ] Fill out time log
+## Week 9
+- Two hour meeting (Friday)
 
-### Week 10
-- [ ] Fill out time log
+## Week 10
+- Two hour meeting (Monday)
+- One hour meeting (Wednesday)
+- Two hour meeting (Friday)
+- Tim: 6 hours (SQL schema design, controller Java class, and POJOs)
+- Abigail: 4 hours (Build JSP, Created AWS Environment)
 
-### Week 11
-- [ ] Fill out time log
+## Week 11
 
-### Week 12
-- [ ] Fill out time log
+## Week 12
+
 

@@ -5,14 +5,17 @@ import com.posting.entity.Period;
 import com.posting.entity.Price;
 import com.posting.entity.Service;
 import com.posting.persistence.GenericDao;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.servlet.*;
 import javax.servlet.annotation.*;
 import javax.servlet.http.*;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.*;
 
-@WebServlet(name = "SearchManager", value = "/search")
+@WebServlet(name = "SearchManager", value = "/search2")
+
 public class SearchManager extends HttpServlet {
     private final String PERIOD_SEARCH = "period";
     private final String MATERIAL_SEARCH = "material";
@@ -21,17 +24,21 @@ public class SearchManager extends HttpServlet {
     private GenericDao<Object> searchDao;
     private ArrayList<Object> results;
     private int searchItem;
+    private final Logger logger = LogManager.getLogger(this.getClass());
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        logger.info("doGet entered");
         getSearchObjectType(request);
-        if (request.getParameter("submit") == "viewAll") {
+        if (request.getParameter("submit").equals("viewAll")) {
             getAllResults();
-        } else if (request.getParameter("submit") == "search") {
+        } else if (request.getParameter("submit").equals("search")) {
             getSearchResult();
         }
         HttpSession session = request.getSession();
         session.setAttribute("results", results);
+        session.setAttribute("processed", true);
+
         String url = "/index.jsp";
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
         dispatcher.forward(request, response);
@@ -44,26 +51,56 @@ public class SearchManager extends HttpServlet {
 
     public void getSearchObjectType(HttpServletRequest request) {
         if (request.getParameter("tables").compareTo(PERIOD_SEARCH) == 0) {
-            setDaoType(new Period());
+            searchDao = new GenericDao(Period.class);
         } else if (request.getParameter("tables").compareTo(MATERIAL_SEARCH) == 0) {
-            setDaoType(new Material());
+            searchDao = new GenericDao(Material.class);
         } else if (request.getParameter("tables").compareTo(SERVICE_SEARCH) == 0) {
-            setDaoType(new Service());
+            searchDao = new GenericDao(Service.class);
         } else if (request.getParameter("tables").compareTo(PRICE_SEARCH) == 0) {
-            setDaoType(new Price());
+            searchDao = new GenericDao(Price.class);
         }
-        searchItem = Integer.parseInt(request.getParameter("searchItem"));
-    }
-
-    public void setDaoType(Object object) {
-        searchDao = new GenericDao(object.getClass());
+        if (request.getParameter("searchItem").compareTo("") != 0) {
+            searchItem = Integer.parseInt(request.getParameter("searchItem"));
+        }
     }
 
     public void getAllResults() {
-        results.addAll(searchDao.getAll());
+        results = searchDao.getAll();
     }
 
     public void getSearchResult() {
-        results.add(searchDao.getById(searchItem));
+        results = searchDao.getById(searchItem);
+    }
+
+    public String getPERIOD_SEARCH() {
+        return PERIOD_SEARCH;
+    }
+
+    public String getMATERIAL_SEARCH() {
+        return MATERIAL_SEARCH;
+    }
+
+    public String getSERVICE_SEARCH() {
+        return SERVICE_SEARCH;
+    }
+
+    public String getPRICE_SEARCH() {
+        return PRICE_SEARCH;
+    }
+
+    public ArrayList<Object> getResults() {
+        return results;
+    }
+
+    public void setResults(ArrayList<Object> results) {
+        this.results = results;
+    }
+
+    public int getSearchItem() {
+        return searchItem;
+    }
+
+    public void setSearchItem(int searchItem) {
+        this.searchItem = searchItem;
     }
 }
