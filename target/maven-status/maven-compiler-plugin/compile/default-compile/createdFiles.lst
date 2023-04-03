@@ -3,6 +3,7 @@ com/posting/persistence/GenericDao.class
 com/posting/controller/TrafficControl.class
 com/posting/entity/Invoice.class
 com/posting/entity/Contract.class
+com/posting/persistence/GenericDaoTest.class
 com/posting/entity/User.class
 com/posting/entity/Material.class
 com/posting/entity/Period.class

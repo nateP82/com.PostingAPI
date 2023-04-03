@@ -1,15 +1,33 @@
 ### Team Charter
+## Team com.Posting/
 
-- Meet two to three times weekly at 11am
-- Treat each other with respect
-- Delegate weekly/daily tasks
-- Log time on project
-- Give constructive feedback on project work
-- Be open to constructive feedback on project work
-- Contribute equally to the goal of the project
-- Team vote after listing pros and cons if a disagreement occurs
-- Utilize communication tools:
-    1. Teams
-  2. Slack
-  3. Github
-  4. IntelliJ
+#### Coordination/Time Management
+- Meet several times weekly
+- Set aside 2-3 hours for team meetings
+- Complete some work collaboratively in real time
+- Delegate additional tasks for work time between meetings
+- Discuss blockers/scheduling issues/other challenges to overcome
+
+#### Communication
+- Keep interactions respectful and polite
+- Manage disagreements productively
+  * Identify options at loggerheads
+  * Discuss pro/con lists for options
+  * Decide as a group which solution to pursue based on analysis
+- Log time spent on the work accurately to ensure even distribution of effort
+- Provide constructive criticism and focus on building up each others' work even if it isn't quite right
+
+#### Tools for Collaboration
+- Microsoft Teams
+  * Real-time video calls
+  * Screen sharing
+  * Planning and accessing meetings
+- Slack
+  * Chat and project coordination
+  * Communication with instructor/peers
+- GitHub
+  * Project repository
+  * Group source code access
+- IntelliJ
+  * Shared IDE environment
+  * Allows collaborative problem-solving on code/implementation

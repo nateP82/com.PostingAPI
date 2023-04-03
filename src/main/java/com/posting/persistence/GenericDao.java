@@ -1,12 +1,14 @@
 package com.posting.persistence;
 
-//import org.apache.logging.log4j.LogManager;
-//import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
+import java.util.ArrayList;
 import java.util.List;
 
 /** GenericDao class
@@ -36,20 +38,21 @@ public class GenericDao<T> {
         session.close();
         return entity;
     }
+
     /** method getAllOrders
      * Method that selects all entities from the order database.
      * @return executeQuery(sql) results from the database query
      */
-    public List<T> getAll() {
+    public ArrayList<T> getAll() {
         Session session = getSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<T> query = builder.createQuery(type);
         Root<T> root = query.from(type);
         List<T> list = session.createQuery(query).getResultList();
+        ArrayList<T> resultList = new ArrayList<T>(list);
         session.close();
-        return list;
+        return resultList;
     }
-
     /**
      * getSession method
      * Returns a open session from the SessionFactory provider

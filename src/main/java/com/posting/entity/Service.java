@@ -3,7 +3,8 @@ package com.posting.entity;
 import javax.persistence.*;
 import java.util.Objects;
 
-@Entity
+@Entity(name="Service")
+@Table(name="service", schema="com.posting")
 public class Service {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
