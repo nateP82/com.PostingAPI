@@ -1,10 +1,12 @@
 package com.posting.controller;
 
+import com.posting.entity.Service;
 import com.posting.persistence.GenericDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.ServletException;
@@ -16,6 +18,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author npeck
  */
 @WebServlet (
+        name = "AccessManager",
         urlPatterns = {"/accessServices"}
 )
 public class AccessManager extends HttpServlet {
@@ -24,9 +27,12 @@ public class AccessManager extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         logger.info("doGet method running");
-        String url = "/services/";
+        genericDao = new GenericDao(Service.class);
+        genericDao.getById(1);
 
-
+        String url = "/index.jsp";
+        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
+        dispatcher.forward(request, response);
     }
 
 
