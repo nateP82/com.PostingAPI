@@ -21,6 +21,7 @@ public class AccessManager extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        logger.info("doGet method running");
 
 
     }
@@ -29,6 +30,7 @@ public class AccessManager extends HttpServlet {
 
     @Override
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        logger.info("doPost method running");
 
 
     }
