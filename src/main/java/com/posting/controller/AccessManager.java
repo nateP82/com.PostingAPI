@@ -22,6 +22,7 @@ public class AccessManager extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         logger.info("doGet method running");
+        String url = "/services/";
 
 
     }
