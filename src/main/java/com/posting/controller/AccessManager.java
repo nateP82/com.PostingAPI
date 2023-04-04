@@ -28,7 +28,7 @@ public class AccessManager extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         logger.info("doGet method running");
         genericDao = new GenericDao(Service.class);
-        genericDao.getById(1);
+        Service returnedService = (Service) genericDao.getById(1);
 
         String url = "/index.jsp";
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
