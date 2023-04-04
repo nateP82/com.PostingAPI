@@ -3,6 +3,9 @@ package com.posting.entity;
 import javax.persistence.*;
 import java.util.Objects;
 
+/**
+ * The type Service.
+ */
 @Entity(name="Service")
 @Table(name="service", schema="com.posting")
 public class Service {
@@ -17,29 +20,75 @@ public class Service {
     @Column(name = "description", nullable = false, length = 255)
     private String description;
 
+    /**
+     * Instantiates a new Service.
+     */
     public Service() {
     }
 
+    /**
+     * Instantiates a new Service.
+     *
+     * @param id          the id
+     * @param name        the name
+     * @param description the description
+     */
+    public Service(int id, String name, String description) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+    }
+
+    /**
+     * Gets id.
+     *
+     * @return the id
+     */
     public int getId() {
         return id;
     }
 
+    /**
+     * Sets id.
+     *
+     * @param id the id
+     */
     public void setId(int id) {
         this.id = id;
     }
 
+    /**
+     * Gets name.
+     *
+     * @return the name
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     * Sets name.
+     *
+     * @param name the name
+     */
     public void setName(String name) {
         this.name = name;
     }
 
+    /**
+     * Gets description.
+     *
+     * @return the description
+     */
     public String getDescription() {
         return description;
     }
 
+    /**
+     * Sets description.
+     *
+     * @param description the description
+     */
     public void setDescription(String description) {
         this.description = description;
     }
