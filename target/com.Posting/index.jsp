@@ -4,7 +4,7 @@
 
 <h2>Com.Posting API</h2>
 
-<form action="${pageContext.request.contextPath}/search" method="get">
+<form action="${pageContext.request.contextPath}/accessServices" method="get">
     <div>
         <label for="searchTable">Choose a table to search:</label>
         <select name="tables" id="searchTable">
