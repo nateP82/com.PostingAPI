@@ -24,6 +24,15 @@
     <servlet-name>TrafficControl</servlet-name>
     <servlet-class>com.posting.controller.TrafficControl</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>RESTfulComPost</servlet-name>
+    <servlet-class>com.posting.controller.appConfig</servlet-class>
+    <init-param>
+      <param-name>jersey.config.server.provider.packages</param-name>
+      <param-value>com.posting.controller</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
 
 
   <!-- ********************************************************************* -->
@@ -36,6 +45,10 @@
   <servlet-mapping>
     <servlet-name>TrafficControl</servlet-name>
     <url-pattern>/redirect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RESTfulComPost</servlet-name>
+    <url-pattern>/comPosting</url-pattern>
   </servlet-mapping>
 
 
