@@ -14,7 +14,7 @@ import javax.servlet.http.*;
 import java.io.IOException;
 import java.util.*;
 
-@WebServlet(name = "SearchManager", value = "/search2")
+@WebServlet(name = "SearchManager", value = "/search")
 
 public class SearchManager extends HttpServlet {
     private final String PERIOD_SEARCH = "period";

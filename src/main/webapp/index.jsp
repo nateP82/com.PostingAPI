@@ -28,7 +28,7 @@
 <fieldset>
     <legend>API Calls</legend>
     <div>
-        <p><a href="${pageContext.request.contextPath}/comPosting/servicesV1/" ><button>All Services, GET request, plain text</button></a></p>
+        <p><a href="${pageContext.request.contextPath}/comPosting/servicesV1/"><button>All Services, GET request, plain text</button></a></p>
     </div>
 </fieldset>
 </div>
