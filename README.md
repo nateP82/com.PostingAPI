@@ -6,6 +6,25 @@ com.Posting/
 ### Project statement:
 Compost Collectors provides a set of standardized services, and invoices could be generated for users in any location, whether an office or a field agent.  To facilitate the flexibility of invoice creation, the Compost Collectors API is designed to provide users a remote information source designed to interface with a local database or other storage method to generate user-specific invoices, stored locally but configured using standardized business data.
 
+### Resources Provided
+#### Services
+* servicesV1
+  * Access all services
+* servicesV2/{id}
+  * Access services by id
+
+### Methods/HTTP Verbs supported:
+GET<br>
+POST (WiP)<br>
+PUT (WiP)<br>
+DELETE (WiP)
+
+### Formats supported:
+Plain text<br>
+HTML<br>
+JSON
+
+### Team Member Profiles (in brief)
 **Abigail Genz** - Team coordinator, leader and task delegator. 
 
 **Tim Mirkes** - The coder in the weeds.  Not to be confused with the catcher in the rye.
