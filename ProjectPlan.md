@@ -21,6 +21,7 @@
 - [x] Construct API access controller (Tim)
 - [x] Construct resource classes (Tim)
 - [x] Update index.jsp to include API call and DB search (Tim)
+- [ ] Research how to request HTML/JSON response in request header (Abigail)
 - [ ] Implement outstanding CRUD functions in GenericDao (Nate)
 - [ ] Implement POST/PUT/DELETE verbs in resource classes (Nate/Tim)
 - [ ] Review updated/new classes (review data flow, explain code) (All)
