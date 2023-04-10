@@ -11,6 +11,10 @@
 - Abigail: 4 hours (Build JSP, Created AWS Environment)
 
 ## Week 11
+- Two hour meeting (Monday)
+- Three hour meeting, impromptu (Tuesday)
+- Two and a half hour meeting (Wednesday)
+- Tim: 5 hours (Build appConfig, resource classes, update index.JSP)
 
 ## Week 12
 

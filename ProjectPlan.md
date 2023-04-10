@@ -10,18 +10,23 @@
 - [x] Populate team charter/ground rules (All)
 - [x] Build JSP for basic database output (Abigail)
 - [x] Build DAO class for database output (Nate)
-- [ ] Build new AWS environment (Abigail)
-- [ ] Generate AWS tables to remote environment (Abigail)
-- [ ] Finish week 9 exercise (All)
-- [ ] Week 10 exercise? (All)
+- [x] Build new AWS environment (Abigail)
+- [x] Generate AWS tables to remote environment (Abigail)
+- [x] Finish week 9 exercise (All)
 - [x] Build out Search Manager class (Tim)
 - [x] Troubleshoot JSP/POJOs/classes (All)
 - [x] Fill out time log (All)
 
 ### Week 11
-- [ ] Source testing data
-- [ ] Add styling: bootstratp? CSS?
-- [ ] Fill out time log
+- [x] Construct API access controller (Tim)
+- [x] Construct resource classes (Tim)
+- [x] Update index.jsp to include API call and DB search (Tim)
+- [ ] Research how to request HTML/JSON response in request header (Abigail)
+- [ ] Implement outstanding CRUD functions in GenericDao (Nate)
+- [ ] Implement POST/PUT/DELETE verbs in resource classes (Nate/Tim)
+- [ ] Review updated/new classes (review data flow, explain code) (All)
+- [x] Week 10 exercise? (All)
+- [ ] Fill out time log (All)
 
 ### Week 12
 - [ ] Create presentation
